@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.cmu.pocketsphinx.demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name">
+        <activity
+            android:name=".PocketSphinxActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity android:name="edu.cmu.pocketsphinx.ListActivity" />
+
+        <activity android:name="edu.cmu.pocketsphinx.ChangelistActivity" />
+        <activity android:name="edu.cmu.pocketsphinx.Change1" />
+        <activity android:name="edu.cmu.pocketsphinx.Change2" />
+        <activity android:name="edu.cmu.Change3" />
+        <activity android:name="edu.cmu.pocketsphinx.list1" />
+    </application>
+
+</manifest>

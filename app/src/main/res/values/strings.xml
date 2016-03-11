@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Escape Now</string>
+    <string name="facebook_app_id">199241010439458</string>
+    <string name="kws_caption">To start recognition say \"ok\".</string>
+    <string name="menu_caption">Say any one of the keywords</string>
+    <string name="title_activity_list">select from the list to change</string>
+    <string name="title_activity_Changelist">select from the list to change</string>
+    <string name="title_activity_list1">enter to change the recognizer word</string>
+    <string name="title_activity_Change1">enter to change the keyword</string>
+    <string name="title_activity_Change2">enter to change the keyword</string>
+    <string name="title_activity_Change3">enter to change the keyword</string>
+</resources>
