@@ -35,7 +35,7 @@ import edu.cmu.pocketsphinx.demo.R;
 //import java.sql.DriverManager;
 //import java.sql.ResultSet;
 
-public class MainActivity extends AppCompatActivity {
+public class PocketSphinxActivity extends AppCompatActivity {
     private TextView info;
     private LoginButton loginButton;
     private  CallbackManager callbackManager;
